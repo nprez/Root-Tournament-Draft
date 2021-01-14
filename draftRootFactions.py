@@ -32,10 +32,10 @@ print("Draft in reverse order.")
 print("Each player after the first draws successive additional cards.")
 print("After setup, each player discards down to 3 cards and shuffles the remainder back into the deck.")
 
-#will be unnecessary once more high-reach factions are released
+#will be unnecessary once another faction with at least reach 9 is released
 if players == 2:
-	print("Factions:")
-	print(random.choice([["Marquise de Cat", "Underground Duchy"], ["Marquise de Cat", "Eyrie Dynasties"]]))
+	print("Factions (One player must choose Marquise de Cat):")
+	print(["Marquise de Cat", "Underground Duchy", "Eyrie Dynasties"])
 	exit()
 
 legalCombination = False
