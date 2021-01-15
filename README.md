@@ -4,3 +4,6 @@
 3. Players draft factions in reverse order.
 4. Each player after the first draws successive additional cards.
 5. After setup, each player discards down to 3 cards and shuffles the remainder back into the deck.
+
+Usage: python draftRootFactions.py [number of players]
+-a flag for "adventurous players" (17 reach minimum)
