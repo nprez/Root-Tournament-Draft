@@ -6,4 +6,5 @@
 5. After setup, each player discards down to 3 cards and shuffles the remainder back into the deck.
 
 Usage: python draftRootFactions.py [number of players]
+
 -a flag for "adventurous players" (17 reach minimum)
