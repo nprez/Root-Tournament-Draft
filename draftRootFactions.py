@@ -16,9 +16,15 @@ factionReach = {
 
 reachRequirement = [-1, -1, 17, 18, 21, 25, 28]
 
-if len(sys.argv) != 2:
+if len(sys.argv) != 2 and not (len(sys.argv) == 3 and "-a" in sys.argv):
+	print(len(sys.argv))
+	print(sys.argv)
 	print("Usage: python draftRootFactions.py [number of players]")
+	print("use -a for adventurous players (17+ reach)")
 	exit()
+
+if("-a" in sys.argv):
+	reachRequirement = [17, 17, 17, 17, 17, 17, 17]
 
 players = int(sys.argv[1])
 
